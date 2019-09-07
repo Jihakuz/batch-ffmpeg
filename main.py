@@ -22,5 +22,4 @@ for file in listdir(input_path):
 
     current_command = command.format(**settings)
 
-    print(current_command)
-
+    system(current_command)
